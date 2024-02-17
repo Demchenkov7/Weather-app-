@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="416.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.app.HelloController">
+   <children>
+      <AnchorPane prefHeight="86.0" prefWidth="414.0" style="-fx-background-color: #000;">
+         <children>
+            <Text fill="WHITE" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Погода сегодня" textAlignment="CENTER" wrappingWidth="414.0">
+               <font>
+                  <Font name="System Bold" size="40.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="city" focusTraversable="false" layoutX="125.0" layoutY="106.0" promptText="Введите город" style="-fx-background-color: #ffff; -fx-border-color: red; -fx-border-radius: 7px;">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="getData" layoutX="153.0" layoutY="157.0" mnemonicParsing="false" text="Узнать погоду">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="-2.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Информация" textAlignment="CENTER" wrappingWidth="414.0">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_ifo" fill="WHITE" layoutX="14.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Температура:" wrappingWidth="380.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_feels" fill="WHITE" layoutX="15.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ощущается:" wrappingWidth="380.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_max" fill="WHITE" layoutX="15.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Максимум:" wrappingWidth="380.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_min" fill="WHITE" layoutX="15.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Минимум:" wrappingWidth="380.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="pressure" fill="WHITE" layoutX="15.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Давление:" wrappingWidth="380.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="15.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Актуальное:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="getDataSpb" layoutX="23.0" layoutY="261.0" mnemonicParsing="false" text="Санкт-Петербург">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDataMsk" layoutX="185.0" layoutY="261.0" mnemonicParsing="false" text="Москва">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDataEkb" layoutX="288.0" layoutY="261.0" mnemonicParsing="false" text="Екатеринбург">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDataKz" layoutX="56.0" layoutY="312.0" mnemonicParsing="false" text="Казань">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDataSch" layoutX="193.0" layoutY="312.0" mnemonicParsing="false" text="Сочи">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDataVor" layoutX="303.0" layoutY="312.0" mnemonicParsing="false" text="Воронеж">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text fx:id="error" fill="WHITE" layoutX="185.0" layoutY="529.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="227.13671875">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

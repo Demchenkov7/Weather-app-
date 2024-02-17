@@ -1,0 +1,8 @@
+
+v	java:S1168"URename this field "temp_feels" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ØÅòüÿÿÿÿ8¡Œ÷ÍÙ1
+t	java:S116;"SRename this field "temp_ifo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÉó‘úÿÿÿÿ8¡Œ÷ÍÙ1
+t	java:S116>"SRename this field "temp_max" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÎ–Üüÿÿÿÿ8¡Œ÷ÍÙ1
+o	java:S116A"SRename this field "temp_min" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£›ÛÂ8¡Œ÷ÍÙ1
+‚
+java:S1149€"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ï„Š¡şÿÿÿÿ8£Œ÷ÍÙ1
+ssecrets:S6705o"SMake sure this OpenWeatherMap key gets revoked, changed, and removed from the code.(Éò„8öªôÍÙ1
